@@ -1,0 +1,33 @@
+<!-- example on Arrays methods -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+	<h3>demo on splice method (array manipulations)</h3>		
+	<script>
+		const array=[10,20,30,40,50,60,70,80,90];			
+		document.write(`Array =>	${array}<br>`);
+
+		//deletion						splice(st-ind, no.of eles)
+		array.splice(0,1);
+		document.write(`after del		${array}<br>`);
+		let t=array.splice(2,5);
+		document.write(`after del		${array}<br>`);			
+
+		//insertion				splice(st-ind, 0, new eles)
+		array.splice(0,0, 11);
+		document.write(`after ins	${array}<br>`);		
+		array.splice(3,0,22,33,44,55);
+		document.write(`after ins	${array}<br>`);		
+
+		//updation			splice(st-index, no.of eles, new eles)
+		array.splice(1,1,101);
+		document.write(`after update	${array}<br>`);
+		let x=array.splice(	6, 2, 202, 303);
+		document.write(`after update	${array}<br>`);
+	</script>
+  </body>
+</html>

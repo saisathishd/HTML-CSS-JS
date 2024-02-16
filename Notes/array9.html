@@ -1,0 +1,24 @@
+<!-- example on JS  Arrays -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+		<h3>demo on arrays</h3>		
+		<script>
+			let x=100, y=200;
+			/* z=x;	x=y;	y=z;		OR
+			x=x+y;		y=x-y;		x=x-y;	OR
+			x=x*y;		y=x/y;			x=x/y;		OR
+			x=x^y;		y=x^y;		x=x^y;	OR	*/
+			[y,x] = [x,y]		//swapping
+			document.write(`x	${x}<br>y	${y}<br>`);
+
+			let str ="siva kumar";
+			for(let i=0; i<str.length; i++)
+				document.write(`${str[i]} &nbsp; `);
+		</script>
+  </body>
+</html>

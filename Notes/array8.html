@@ -1,0 +1,29 @@
+<!-- example on JS  Arrays -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+		<h3>demo on array destructuring (JS6)</h3>		
+		<script>
+			const a=[10,20,30];
+			//let x=a[0], y=a[1], z=a[2];		OR
+			let [x,y,z]=a;	//destructuring
+			document.write(`A	${a}<br>`);
+			document.write(`X	${x}<br>Y	${y}<br>Z	${z}<br>`);
+
+			const data=["html", "css", "js", "jquery", "ajax", "xml", "bootstrap", "angular", "react", "node"];
+			let [i,j,k]=data;	//destructuring
+			document.write(`data	${data}<br>`);
+			document.write(`i	${i}<br>j	${j}<br>k	${k}<br>`);
+
+			let [p,,,,,,,q]=data;	//destructuring with skip
+ 			document.write(`i	${p}<br>j	${q}<br>`);
+
+			let [e1,,e2,,...eles]=data;	//destructuring with skip & spread
+ 			document.write(`e1	${e1}<br>e2	${e2}<br>eles	${eles}`);
+		</script>
+  </body>
+</html>

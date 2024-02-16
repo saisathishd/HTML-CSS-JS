@@ -1,0 +1,30 @@
+<!--  checking the given number is Prime -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Js33</title>
+  </head>
+  <body>
+		<input type="text" id="num" placeholder="enter int number"/> 
+		<button onclick="isPrime()">check number</button>
+		<script>
+			function isPrime()
+			{
+				let n,i,flag=false;	//locals
+				n=num.value;	
+				for(i=2; i<=n/2; ++i)		 
+				{
+					if(n%i===0) {
+						flag=true;
+							break;
+					}
+				}
+				if(flag==false)
+					alert("Prime Number")
+				else
+					alert("Not A Prime Number")
+			}
+		</script>
+  </body>
+</html>

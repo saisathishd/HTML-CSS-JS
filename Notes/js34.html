@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Js34</title>
+ </head>
+ <body>
+	<h2>demo on html with loop</h2>
+	<script>
+		for(let i=1.; i<=10; i++) {
+			//document.write("<h3>hi</h3>");
+			document.write("<button> "+i+" </button>");
+		}
+	</script>
+	<br> <br>
+
+	<!-- date control creation -->
+	<label>Date of Birth:</label> <br>
+	<select id="day" style="width:120px;">
+		<script>
+			for(let d=1; d<=31; ++d)
+				document.write("<option>"+d+"</option>");
+		</script>
+	</select>
+	<select id="month" style="width:120px;">
+		<script>
+			const months = [ `January`, `February`, `March`, `April`, `May`, `June`, `July`, `August`, `September`, `October`, `November`, `December`];
+			for(let m=0; m<=11; ++m)
+				document.write("<option>"+months[m]+"</option>");
+		</script>
+	</select>
+	<select id="year" style="width:120px;">
+		<script>
+			for(let y=2023; y>1900;  --y)
+				document.write("<option>"+y+"</option>");
+		</script>
+	</select>
+ </body>
+</html>

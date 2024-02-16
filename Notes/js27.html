@@ -1,0 +1,27 @@
+<!-- example on JS Control statements  -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Js27</title>
+ </head>
+ <body>
+	<h3>demo on for loop</h3>
+	<script>
+		//to print 1 to 20 numbers
+		for(let i=1; i<=20; i++) {		//i is block level, we use within the loop only
+			document.write(i+" ");
+		}
+		document.write(`<br>`);
+
+		//to print 20 to 1 numbers
+		for(let i=20; i>0; --i) {  //i is block level, we use within this loop only
+			document.write(i+" ");
+		}
+		document.write(`<br>`);
+
+		for(x=1, y=1, z=1; x<=10; x++, y++, z++)
+			document.write(x+" "+y+" "+z+"<br>");
+	</script>
+ </body>
+</html>

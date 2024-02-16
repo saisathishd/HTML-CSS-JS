@@ -1,0 +1,19 @@
+<!-- Temperature convertor -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<title>Js20</title>
+  </head>
+  <body>
+	<fieldset style="width:500px; margin:auto;">		
+		<legend>Temperature</legend>
+		<label>Celsius</label>
+		<input type="text" id="Celsius" style="text-align:center;" oninput="Fahrenheit.value = (Celsius.value * 9/5) + 32"> 
+		<span> = </span>
+		<label>Fahrenheit</label>
+		<input type="text" id="Fahrenheit" style="text-align:center;" oninput="Celsius.value = (Fahrenheit.value - 32) *5/9">
+	</fieldset>
+
+  </body>
+</html>

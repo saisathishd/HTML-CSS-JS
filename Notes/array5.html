@@ -1,0 +1,31 @@
+<!-- example on JS  Arrays -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+		<h3>demo on arrays</h3>
+		<script>
+			//nested array
+			const a =[
+								[10,20,30], 
+								[true,false],
+								["apple","orange","grape","banana"]
+							];
+		 
+			document.write(`${a}<br>`);
+ 		 
+			for(let i=0; i<a.length; i++)
+			{
+				for(let j=0; j<a[i].length; j++)
+					document.write(`${a[i][j]} `);
+
+				document.write(`<br>`);
+			}
+
+			console.table(a);	  
+	</script>
+  </body>
+</html>

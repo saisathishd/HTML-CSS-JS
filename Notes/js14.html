@@ -1,0 +1,26 @@
+<!--	 example on  JS Operators -->
+<h2>demo on operations</h2>
+<script>
+	document.write( 10-20*5+100/30, `<br>` );
+	document.write( 10+100%30-20*3, `<br>`	);
+
+	let x=21, y=5;
+	document.write("sum is " + x+y + "<bR>");
+	document.write("sum is " + (x+y) + "<bR>");
+	document.write("sum is ", x+y,  "<bR>");
+
+	document.write(	'sub is ' + x-y +"<br>")		
+	document.write(	'sub is ' + (x-y) +"<br>")		
+	document.write(	'sub is ', x-y ,"<br>")		
+	document.write(	x-y + ' is sub <br>')		
+	document.write(`Product is `+ y*10 +`<br>`);
+
+	let i="10", j='8';		 
+	document.write( i+j,  '<br>');	//no parse
+	document.write( i-j, '<br>');		//auto parsing
+	document.write( i*j, '<br>');	//auto  parsing
+	document.write( i>=j , '<br>'); //no parse
+
+	document.write( parseInt(i) + parseInt(j) , "<bR>"); //manual parsing
+	document.write( parseInt(i) >= parseInt(j) , '<br>')  //manual parsing
+</script>

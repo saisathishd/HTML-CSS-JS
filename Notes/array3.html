@@ -1,0 +1,46 @@
+<!-- example on JS  Arrays -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+		<h3>demo on arrays</h3>
+		<script>
+			//storing different types of values
+			let data=["ram", 35, 5.10, true, new Date()];
+			document.write(`data		=>	${data}<br>`);
+
+			//const array
+			const	 a = [10,20,30];
+			document.write(`A	: ${a}<br>`);
+			a[1]=22;	//modifying
+			a[3]=44;	
+ 			document.write(`A	: ${a}<br>`);
+
+			//array resize
+			const b =[11,22,33,44,55,66,77,88,99];
+ 			document.write(`B	: ${b}<br>`);
+ 			document.write(`B size: ${b.length}<br>`);
+			b.length=5;
+ 			document.write(`B	: ${b}<br>`);
+ 			document.write(`B size: ${b.length}<br>`);
+			b.length=7;
+			b[5]=101;
+			b[6]=202;
+ 			document.write(`B	: ${b}<br>`);
+ 			document.write(`B size: ${b.length}<br>`);
+			//b.length=0;		clearing array
+
+			//dynamic values
+			const c = [];
+			let n=+prompt("enter no.of values");
+
+			for(let i=0; i<n; i++)
+				c[i]=prompt("enter array value");
+
+			document.write(`C	:${c}`);
+		</script>
+  </body>
+</html>

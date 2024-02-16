@@ -1,0 +1,37 @@
+<!-- example on Arrays methods -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+	<h3>demo on includes, indexOf, lastIndexOf, reverse, sort & join methods</h3>		
+	<script>
+		const array=[10,30,20,30,40,50,60,30,70,80,30,90];			
+			
+		document.write(`include 30 => ${array.includes(30)}<br>`);
+		document.write(`include 25 => ${array.includes(25)}<br>`);
+		let str="simla green apples";
+		document.write(`${str.includes("green")}<br>`);
+
+		document.write(`index of 30	${array.indexOf(30)}<br>`);
+		document.write(`index of 55	${array.indexOf(55)}<br>`);
+		document.write(`index of 30	${array.indexOf(30, 4)}<br>`);
+
+		document.write(`lastindex of 30	${array.lastIndexOf(30)}<br>`);
+
+		array.reverse();
+		document.write(`reverse	${array}<br>`);
+
+		array.sort();		//ASC order
+		document.write(`sort	${array}<br>`);
+		const names=["siva","nani","pinky","radhi","rama"];
+		document.write(`names		=> ${names}<br>`);
+		names.sort();
+		document.write(`names		=>	${names}<br>`);
+
+		document.write(`array	=>	${array.join("&#128533;")}<br>`);
+	</script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!-- example on Arrays methods -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+		<h3>demo on unshift() & shift()</h3>		
+		<script>
+			const eles=[];
+			eles.unshift(10);
+			eles.unshift(20);
+			eles.unshift(30);
+			let c = eles.unshift(40)
+			for(let x of eles)
+				document.write(`${x} &nbsp;`);
+
+			let e = eles.shift();
+			document.write(`<br>1st pop	${e}`);
+			document.write(`<br>2nd pop	${eles.shift()}`);
+			document.write(`<br>eles		${eles}`);
+
+			eles.unshift(33,22,11);
+			document.write(`<br>eles		${eles}`);
+		</script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!-- example on DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+  </head>
+  <body>
+	<h3> demo no  dom events</h3>
+	<div align="center">
+		<h1 id="heading">Siva Kumar Yarrapati</h1>
+		<input type="radio" id="c1" name="color"> <label>Red</label> &nbsp; 
+		<input type="radio" id="c2" name="color"> <label>Green</label> &nbsp; 
+		<input type="radio" id="c3" name="color"> <label>Blue</label> &nbsp; 
+	</div>
+	<script>
+		const h1 = document.getElementById("heading");
+		document.querySelector("#c1").onchange = ()=>{ h1.style.color="red"; }
+		document.querySelector("#c2").onchange = ()=>{ h1.style.color="green"; }
+		document.querySelector("#c3").onchange = ()=>{ h1.style.color="blue"; }
+	</script>
+	<hr>
+	<input type="color" id="c" onchange="document.body.style.background=c.value">
+  </body>
+</html>
+
+
+
+

@@ -1,0 +1,30 @@
+<!-- example on DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+  </head>
+  <body>
+	<h3 id="head1"> demo on removing ele & adding ele</h3>
+	<div id="div1">
+		<h1 id="head2">apple</h1>
+		<h2 id="head3">mango</h2>
+		<h3 id="head4">orange</h3>
+		<button id="bt1" onclick="document.querySelector('#head2').remove()"> delete elemet</button>
+	</div>			
+	<hr>
+	<div id="div2">
+		<button id="bt2">add element</button>
+	</div>
+	<script>
+		document.getElementById("bt2").onclick=function() {
+			const h2 = document.createElement("h2"); //<h2></h2>
+			h2.innerText="Hello world";	//<h2>Hello world</h2>
+			h2.id="hh2";  //<h2 id="hh2">Hello world</h2>
+			h2.style.color="red";  //<h2 id="hh2" style="color:red;">Hello world</h2>
+			//document.body.appendChild(h2);	OR
+			document.querySelector("#div1").appendChild(h2)
+		}		
+	</script>
+  </body>
+</html>

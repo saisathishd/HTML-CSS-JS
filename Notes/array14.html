@@ -1,0 +1,33 @@
+<!-- example on Arrays methods -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+	<input type="text" id="textBox" placeholder="enter value">
+	<bR>
+	<button onclick="addItem()">add item</button> &nbsp; 
+	<button onclick="viewItems()">view items</button>
+	<br>
+	<output id="res"></output>
+	<script>
+		const data=[];
+		let index=0;
+
+		function addItem()
+		{
+			data[index]=textBox.value;
+			index++;
+			textBox.value="";	//clear data
+			textBox.focus();		//requesting cursor
+		}
+
+		function viewItems()
+		{
+			res.value="Items	:"+data;
+		}
+	</script>
+  </body>
+</html>

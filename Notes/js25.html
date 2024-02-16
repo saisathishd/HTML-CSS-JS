@@ -1,0 +1,43 @@
+<!-- example on JS Control Statements -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Js25</title>
+ </head>
+ <body>
+	<h3>demo on additional features of switch </h3>
+	<script>
+		//its supports all datatypes
+		let a;
+		a=10.56;		//a=false	OR	a="siva"	OR	 a=10
+		switch(a)
+		{
+			case 10.56:	document.write("Yes<br>");
+							break;
+			default:		document.write("No<br>");
+		}
+
+		//its supports to write conditions
+		let i=-55;
+		switch(i>=0)
+		{
+			case true: document.write("+ve number<br>");
+								break;
+			case false: document.write("-ve number<br>");
+		}
+
+		//it supports to use variables inside case
+		let x,y,n;
+		n=20;	x=10;	y=20;
+		switch(n)
+		{
+			case x:	document.write("X");
+							break;
+			case y:	document.write("Y");
+							break;
+			default:		document.write("No");
+		}
+	</script>
+ </body>
+</html>

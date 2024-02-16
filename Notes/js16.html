@@ -1,0 +1,30 @@
+<!-- example on JS -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Js16</title>
+ </head>
+ <body>
+	<h3>finding sum of two numbers</h3>
+	<label>First number</label> <br>
+	<input type="text" id="firstNum" autofocus> <br>
+	<label>Second number</label> <br>
+	<input type="text" id="secNum"> <bR>
+    <button onclick="addition()"> Addition</button> <br>
+	<output id="op"></output>
+	<script>
+		function addition()
+		{
+			let x, y, res;		//local vars
+			x = parseFloat(firstNum.value);		//data coll from ui
+			y = parseFloat(secNum.value);
+			res = x+y;
+			//document.write('Sum is '+res);		OR
+			//console.log('Sum is '+res);	OR
+			//alert("Sum is "+res);		OR
+			op.value="Sum is "+res;
+		}
+	</script>
+ </body>
+</html>

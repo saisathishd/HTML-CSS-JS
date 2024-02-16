@@ -1,0 +1,28 @@
+<!-- printing multiplication table -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Js32</title>
+ </head>
+ <body>
+  <input type="text" id="tableNum" placeholder="Table number">
+  <button onclick="printTable()">print table</button>
+	<br>
+	<output id="result"></output>
+	<script>
+	  //defining function for printing table
+	  function printTable()
+	  {
+		let tn,i,res;	//local vars
+		tn = tableNum.value; //data coll
+		
+		for(i=1; i<=20; i++) {
+		  res=tn*i;
+		  //document.write(tn+"*"+i+"="+res+"<br>");		OR
+			result.innerHTML += (tn+"*"+i+"="+res+"<br>");
+		}		
+	  }
+	</script>
+ </body>
+</html>

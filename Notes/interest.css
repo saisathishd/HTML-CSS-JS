@@ -1,0 +1,35 @@
+/* styles for interest calculator */
+div{
+	width:320px;
+	background:black;
+	color:white;
+	box-shadow:2px 2px 15px red;
+	margin:auto;
+	border-radius:15px;
+	padding:20px;
+}
+label,span,input{
+	font-size:20px;
+}
+input{
+	outline:0;
+	border:0;
+}
+button{
+	width:200px;
+	height:30px;
+	border:0;
+	font-size:20px;
+	background:blue;
+	color:white;
+	border-radius:5px;
+	font-weight:bold;
+	transition:background linear 800ms;
+}
+button:hover{
+	background:red;
+}
+output{
+	font-size:18px;
+	color:yellow;
+}

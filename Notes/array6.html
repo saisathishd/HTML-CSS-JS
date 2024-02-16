@@ -1,0 +1,26 @@
+<!-- example on JS  Arrays -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+  </head>
+  <body>
+		<h3>demo on for in loop (JS6)</h3>
+		<script>
+			const a=[10,20,30,40,50];
+
+			for(let i in a) {
+				document.write(`${i} &nbsp; ${a[i]}<br>`);
+				a[i]+=1;
+			}
+		</script>
+
+		<h3>demo on for of loop (JS6)</h3>
+		<script>
+			const names=["rama","sama","gama","poma"];
+			for(let e of names)
+				document.write(`${e}<br>`);
+		</script>
+  </body>
+</html>
