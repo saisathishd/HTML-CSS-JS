@@ -1,0 +1,35 @@
+<!--  example on		"input"		tag -->						 
+<!DOCTYPE html>				 
+<html lang="en"> 
+  <head>
+    <title>Ex51</title>
+    <link rel="icon" href="logo2.svg">		
+	<style>
+		input[type="checkbox"]{
+			accent-color:red;
+		}
+	</style>
+  </head>
+  <body>		
+		<h2>demo on	checkbox  fields</h2>		
+		<form action="upload" >	
+			<label>RAM:</label> <br>		 
+			<input type="checkbox" id="ram1" name="ram" value="16" checked> 
+			<label>16gb&Above</label> 
+			<br>
+			<input type="checkbox" id="ram2" name="ram" value="12" checked> 
+			<label>12gb</label>
+			<br>
+			<input type="checkbox" id="ram3" name="ram" value="8"> <label>8gb</label>
+			<br>
+			<input type="checkbox" id="ram4" name="ram" value="6"> <label>6gb</label>
+			<br>
+			<input type="checkbox" id="ram5" name="ram" value="4"> <label>4gb</label>
+			<br>
+			<input type="checkbox" id="ram6" name="ram" value="3"> 
+			<label>3gb&Below</label>
+			<br> <br>
+			<button type="submit">Apply Filter</button>
+		</form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!-- CSS Selectors
+attribute selector ==>  used to defined/to apply common styles for elements based on attribute name
+Syn:		[attribute]				or		[attribute="value"]		or		tag[attribute="value"]
+				{
+					prop:val;
+					......
+				}
+-->						 
+<!DOCTYPE html>				 
+<html lang="en"> 
+  <head>
+    <title>Ex37</title>
+    <link rel="icon" href="logo2.svg"> 
+	<style>
+		/* [width] {	color:red;	}  */
+		[width="500px"] { color:red; }
+		img[height="200px"]	{	border-radius:50%; }
+		img[height="300px"]	{	border:10px solid red; }	
+ 	</style>
+  </head>
+  <body>
+	<h2>demo on  attribute selector</h2>
+	<h1 width="500px">Apple</h1>
+	<h2 width="50px">Mango</h2>
+	<div width="60%">Orabnge</div>
+	<p width="500px">Grape</p>
+	<img src="images/photo.png"  height="200px">
+	<img src="images/pic4.jpg" height="200px">
+	<img src="images/snow.jpg" height="300px">
+	<img src="images/spring.jpg" height="300px">
+	<img src="images/tenor.gif" height="300px">
+
+
+  </body>
+</html>

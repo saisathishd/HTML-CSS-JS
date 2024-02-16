@@ -1,0 +1,37 @@
+<!-- CSS Selectors
+id sel ==>  used to defined/to apply styles for 1 instance of specific element
+		    ==> unique styles
+			==> its alternate for inline styles
+	Syn:		#id-name {
+							prop:val;
+							.......
+					}
+mapping
+=> every "id" selector should map to corr element using "id" attribute 
+			<tag  id="id-name" >
+
+			1 : 1		Y
+			1 : N
+			N : 1
+			N : N
+-->
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>Ex33</title>
+    <link rel="icon" href="logo2.svg"> 
+	<style>
+		#id1 {	color:red; }
+		#id2{		color:green;	}
+		#id3{		color:blue;	 }
+ 	</style>
+  </head>
+  <body>
+	<h2>demo on id selector</h2>
+	<h2 id="id1">HTML</h2>
+	<h2 id="id2">CSS</h2>
+	<h2 id="id3">JavaScript</h2>
+	<h3 id="id1">BootStrap</h3>		<!-- invalid -->
+	<h3 id="id2 id3">Jquery</h3>		<!-- invalid -->
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!-- example on JS 
+Note:
+1.	 ; is optional 
+2.  literals => used to represent string/text data
+		=> string literals
+				-> " " & '  ' both are called string literals
+				-> old 
+				-> there is no diff bw/  " " & '  ' 
+				-> string lit sup to type only 1 line
+
+		=> template literals
+				-> ` ` (backtick) is called tempalte lit
+				-> since JS6
+				-> temp lit sup to type no.of lines
+3. JS produces errors, it displaying errors in console 
+4. if error occures, it skips execution code from error line to end of </script> tag
+-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Js5</title>
+ </head>
+ <body>
+	<h3>Note points</h3>
+	<script>
+		document.write("HTML")
+		document.write('CSS')  
+		document.writ(`JavaScript`)   //error
+	</script>
+	<h3>Hello</h3>
+	<script>
+		document.write("Servlet");
+		document.write('ASP.net')
+		document.rite(`PHP`)	//error
+		document.write(`Node.JS`);
+	</script>
+	<h3>hi</h3>
+	<script>
+		/*
+		console.log("Nuziveedu
+Big
+Rasalu")	error	*/
+		console.log(`Nuziveedu
+Big
+Rasalu`)	
+	</script>
+	<h3>end of page</h3>
+ </body>
+</html>

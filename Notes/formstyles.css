@@ -1,0 +1,45 @@
+/* designing styles for reg form */
+body {
+	background-image:url(images/wall.jpg);
+	background-size:cover;
+}
+.container{
+	width:280px;
+	border-radius:15px;
+	background:#b9fafd;
+	box-shadow:2px 2px 15px yellow;
+	margin:3% 20%;
+	padding:30px;
+}
+label,span{
+	font-size:20px;
+	color:blue;
+}
+[type="text"],[type="email"],[type="date"],select {
+	font-size:18px;
+	width:200px;
+}
+input{
+	border:none;
+	outline:none;
+	background:#b9fafd;
+	border-bottom:2px solid blue;
+}
+[type="checkbox"],[type="radio"]{
+	accent-color:blue;
+}
+button{
+	width:180px;
+	height:30px;
+	background:linear-gradient(to left,#3300ff,#ff00ff);
+	color:white;
+	font-size:20px;
+	border:0;
+	border-radius:4px;
+	cursor:pointer;
+	transition: border-radius linear 500ms;
+}
+button:hover{
+	background:linear-gradient(to right, #3300ff,#ff00ff);
+	border-radius:15px;
+}

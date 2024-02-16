@@ -1,0 +1,31 @@
+<!-- CSS list's
+list-style-type ==> prop used to change type of ol & ul
+	Syn:		list-style-type:decimal/upper-alpha/lower-alpha/lower-roman/upper-roman/disk/circle/square/    lower-greek/zero-leading-decimal/tamil/telugu/urdu.../'text'/none;
+
+list-style-image ==> prop used to display images as a bullet styles
+	Syn:		list-style-image : url(imagename );
+-->
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>Ex30</title>
+    <link rel="icon" href="logo2.svg"> 
+  </head>
+  <body>
+	<h2>demo on css list's </h2>
+	<ol style="list-style-type:telugu;">
+		<li>HTML</li>	<li>CSS</li>	<li>JavaScript</li>		<li>Ajax</li>	<li>Jquery</li>
+	</ol>
+	<hr>
+	<ul style="list-style-type:'&#128073';">
+		<li>HTML</li>	<li>CSS</li>	<li>JavaScript</li>		<li>Ajax</li>	<li>Jquery</li>
+	</ul>
+	<hr>
+	<!-- <ul  style="list-style-image:url(images/b.webp);">	 OR	-->
+	<ul>
+		<li style="list-style-image:url(images/s.png);">SBI</li>	
+		<li style="list-style-image:url(images/h.png);">HDFC Bank</li>	
+		<li style="list-style-image:url(images/i.png);">ICICI Bank</li>		
+	</ul>
+  </body>
+</html>

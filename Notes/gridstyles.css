@@ -1,0 +1,47 @@
+/* styles for ibomma application */
+body{
+	background:#242424;
+}
+.header{
+	background:#4a4a4a;
+	padding:20px;
+	margin-bottom:25px;
+}
+.slogan{
+	text-align:center;
+	color:#ffffff;
+	margin-bottom:40px;
+}
+.slogan div{
+	font-size:42px;
+	font-family:'Franklin Gothic Book';
+}
+.slogan p{
+	font-size:18px;
+}
+.grid-box{
+	display:grid;
+		grid-template-columns:auto auto auto auto;
+		width:75%;
+		margin:auto;
+		column-gap:10px;
+		row-gap:10px;
+}
+.grid-box img{
+	width:100%;
+	height:80%;
+	border-radius:20px;
+}
+.grid-box a {
+	font-size:20px;
+	text-decoration:none;
+	color:#fff;
+}
+.grid-box a:hover{
+	color:yellow;
+	text-decoration:underline;
+}
+.grid-box div div{
+	color:cyan;
+}
+

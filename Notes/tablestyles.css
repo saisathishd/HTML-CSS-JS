@@ -1,0 +1,28 @@
+/* styles IPL points table */
+table{
+	width:700px;
+	margin:auto;
+	border-collapse:collapse;
+}
+caption{
+	background:linear-gradient(to left, red, blue);
+	color:white;
+	text-align:left;
+	font-size:34px;
+}
+table tr:nth-child(odd){
+	background:#b0b0b0	;
+}
+table tr:nth-child(even){
+	background:	#4f4f4f;
+	color:#fff;
+}
+table tr:first-child{
+	background:black;
+	color:#fff;
+	font-size:20px;
+}
+table tr:hover{
+	background:blue;
+	color:cyan;
+}

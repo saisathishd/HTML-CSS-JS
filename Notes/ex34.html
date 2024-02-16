@@ -1,0 +1,40 @@
+<!-- CSS Selectors
+class sel ==>  used to defined/to apply common styles for group of instances of element
+				  ==>  also used to defined/to apply common styles for group of elements
+	Syn:		.class-name {
+							prop:val;
+							.......
+					}
+mapping
+=> every "class" selector should map to corr elements using "class" attribute 
+			<tag  class="class-name" >
+			<tag  class="cn1  cn2  cn3 ...." >
+			1 : 1		Y
+			1 : N		Y
+			N : 1		Y
+			N : N		Y
+-->
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>Ex34</title>
+    <link rel="icon" href="logo2.svg"> 
+	<style>
+		.c1 {	background:cyan; }
+		.c2{	background:pink; }
+ 	</style>
+  </head>
+  <body>
+	<h2>demo on class selector</h2>
+	<h2 class="c1">HTML</h2>
+	<h2 class="c2">CSS</h2>
+	<h2 class="c1">JavaScript</h2>
+	<h2 class="c2">BootStrap</h2>		
+	<h2 class="c1">Jquery</h2>		
+	<h2 class="c2">Angular</h2>		
+
+	<span class="c1">Red Apple</span>
+	<p class="c1">Yellow Mango</p>
+	<div class="c1">Black Grape</div>
+  </body>
+</html>
