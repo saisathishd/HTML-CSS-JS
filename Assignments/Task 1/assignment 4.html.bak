@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Assignment 4</title>
+ </head>
+ <style>
+	h1{
+		text-align:center;
+		color:blue;
+		padding: 30px 0;
+	}
+	button{
+	background-color: blue;
+	padding: 20px 40px;
+	color:white;
+	border-radius: 12px;
+	}
+	button:hover{
+	cursor: pointer;	
+	}
+	table{
+		text-align: center;
+		box-shadow: 1px 1px 4px 4px gray;
+		margin: auto;
+		padding: 5%;
+	}
+	div{
+		display:flex;
+		flex-direction:row;
+		padding: 10px 215px ;
+	}
+	td{
+		color: #aaaaaa;
+	}
+ </style>
+ <body style="border-top: 2px solid black; border-bottom: 2px solid black;">
+ <h1>Give your Child an International Education</h1>
+ <div><table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/cur.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>Within the group, all children are</br>supported in developing theri</br>potential at their own pace....</td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Learn more</button></p></p></td></tr>
+ </table>
+ <table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/math.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>By means of adult supported</br>practical experience, chilren</br>become familiar with the ....</td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Learn more</button></p></p></td></tr>
+ </table>
+ <table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/cre.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>Children are encouraged to use a</br>wide range of resources in order</br>to express their own ideas....</td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Learn more</button></p></p></td></tr>
+ </table>
+ <table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/com.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>In both small and large groups,</br>children are encouraged</br>to extend their vocabulary and....</td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Learn more</button></p></p></td></tr>
+ </table></div>
+
+<br><br><br><br></body>
+</html>

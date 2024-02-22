@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Assignment 5</title>
+ </head>
+ <style>
+	button{
+	border-color: red;
+	padding: 20px 100px;
+	color: red;
+	}
+	button:hover{
+	cursor: pointer;	
+	}
+	#flex{
+		display:flex;
+		flex-direction: row;
+		border-top: 2px solid black; 
+		text-align: center;
+		margin: auto;
+		padding: 50px;
+	}
+	img{
+		width: 400px;
+		padding: 0 10px;
+	}
+	#div{
+	padding: 40px 40px;
+	}
+	i{
+	color:red;
+	font-style: oblique;
+	font-size: 25px;
+	}
+	td{
+	font-weight: Normal;
+	}
+	
+ </style>
+ <body>
+ <div id="div"><h1>The most searched <i> Luxury</i> cars</h1>
+ <div id="flex">
+ <table>
+ <table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/benz.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>Benz car</td></p></p></tr>
+ <tr><p><p><td>&#8377; 79.90 - 98.50 Lakh <span>*</span></td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Check February Offer</button></p></p></td></tr></table>
+ 
+ <table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/audi.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>Audi car</td></p></p></tr>
+ <tr><p><p><td>&#8377; 79.90 - 98.50 Lakh <span>*</span></td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Check February Offer</button></p></p></td></tr></table>
+ 
+ <table>
+ <tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/bmw.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>Bmw car</td></p></p></tr>
+ <tr><p><p><td>&#8377; 79.90 - 98.50 Lakh <span>*</span></td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Check February Offer</button></p></p></td></tr></table>
+
+
+ <table><tr><td><img src="https://github.com/saisathishd/HTML-CSS-JS/blob/main/Assignments/Images/coop.jpg?raw=true"></td></tr></br></br>
+ <tr><p><p><td>Cooper car</td></p></p></tr>
+ <tr><p><p><td>&#8377; 79.90 - 98.50 Lakh <span>*</span></td></p></p></tr>
+ <tr></br></br><td><p><p><button type="button">Check February Offer</button></p></p></td></tr></table>
+ </table></div></div>
+
+<br><br><br><br></body>
+</html>
